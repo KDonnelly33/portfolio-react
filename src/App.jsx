@@ -1,21 +1,20 @@
-import { useState } from 'react'
+
 import Navbar from './components/Navbar'
 import './App.css'
+import AboutMe from './pages/AboutMe'
+import Portfolio from './pages/Portfolios'
+import Header from './components/Header'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <header>
-        <h1>Kevin Donnelly's Portfolio</h1>
-        <Navbar/>
-        <Navbar/>
-        <Navbar/>
-        <Navbar/>
-        
-        
-      </header>
+      <Header />
+      <main>
+
+       <Portfolio/>
+          </main>
     </>
   )
 }
