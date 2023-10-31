@@ -1,9 +1,9 @@
 
-import Navbar from './components/Navbar'
 import './App.css'
-import AboutMe from './pages/AboutMe'
-import Portfolio from './pages/Portfolios'
 import Header from './components/Header'
+import AboutMe from './pages/AboutMe'
+
+import Portfolio from './pages/Portfolios'
 
 function App() {
 
@@ -12,6 +12,9 @@ function App() {
     <>
       <Header />
       <main>
+        <AboutMe />
+ 
+
 
        <Portfolio/>
           </main>

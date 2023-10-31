@@ -1,9 +1,9 @@
-import recipeEats from "./images/screenshot-recipeeats.png";
-import fridgeRaider from "./images/screenshot-fridgeraider.png";
-import noteTaker from "./images/screenshot-notetaker.png";
-import codingQuiz from "./images/screenshot-codeingquiz.png";
-import techBlog from "./images/screenshot-techblog.png";
-import textEditor from "./images/screenshot-texteditor.png";
+import recipeEats from "./assets/images/screenshot-recipeeats.png";
+import fridgeRaider from "./assets/images/screenshot-fridgeraider.png";
+import noteTaker from "./assets/images/screenshot-notetaker.png";
+import codingQuiz from "./assets/images/screenshot-codeingquiz.png";
+import techBlog from "./assets/images/screenshot-techblog.png";
+import textEditor from "./assets/images/screenshot-texteditor.png";
 
 export const PROJECTS = [
   {
