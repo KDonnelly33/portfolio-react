@@ -1,9 +1,11 @@
 
 import './App.css'
 import Header from './components/Header'
+import ConctactForm from './pages/ContactForm'
 import AboutMe from './pages/AboutMe'
 
-import Portfolio from './pages/Portfolios'
+
+import Portfolios from './pages/Portfolios'
 
 function App() {
 
@@ -12,11 +14,14 @@ function App() {
     <>
       <Header />
       <main>
+        <ConctactForm />
+
+
         <AboutMe />
  
 
 
-       <Portfolio/>
+       <Portfolios/>
           </main>
     </>
   )
