@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Header />
-      <main>
+      <main className='lightgrey-background'>
         <Outlet />
           </main>
           <Footer />

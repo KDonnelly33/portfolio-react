@@ -35,9 +35,10 @@ export default function ContactForm() {
 
   return (
     <section>
-      <h4>Contact Me</h4>
-      <form onSubmit={handleFormSubmit}>
+      <h4 className="text-3xl header-text underline text-center mb-4 ">Contact Me</h4>
+      <form className="flex flex-col justify-center items-center "onSubmit={handleFormSubmit}>
         <input
+        className="w-1/3 px-3 py-2 m-2 rounded-md shadow-lg"
           type="text"
           name="name"
           placeholder="Name"
@@ -45,13 +46,15 @@ export default function ContactForm() {
           onChange={handleInputChange}
         />
         <input
+        className="w-1/3 px-3 py-2 m-2 rounded-md shadow-lg"
           type="email"
           name="email"
           placeholder="Email"
           value={email}
           onChange={handleInputChange}
         />
-        <input type="text" name="message" placeholder="Message" />
+        
+        <input className="w-11/12 px-3 py-2 m-2 rounded-md shadow-lg" type="text" name="message" placeholder="Message" />
         <button type="submit">Submit</button>
       </form>
       {errorMessage && (

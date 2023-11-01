@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.darkgrey-background {
+    background-color : #33415C;
+}
+.lightgrey-background {
+    background-color : #d6d9e0;
+}
+.medgrey-background {
+    background-color : #979DAC;
+}
+
+.round-top-corners {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+.link:hover {
+    background-color: #7D8597;
+}
+
+.header-text {
+    color: #33415C;
+    text-shadow: 1px 1px 2px #0466C8 ;
+}
+
+.text-color {
+    color: #001233;
+}
+.footer-link {
+    color: white;
+    background-color: #0353A4;
+}
+.footer-link:hover {
+    background-color: #023E7D;
+}
