@@ -1,7 +1,13 @@
-export default function NavTabs() {
+export default function NavTabs({ links }) {
     return (
-        <>
-        <button>button</button>
-        </>
-    )
-};
+      <nav>
+        <div>
+            <ul> 
+            {links.map((link) => (
+            <li key={link.key}>{link}</li>
+            ))}
+            </ul>
+        </div>
+        </nav>
+    );
+    }
