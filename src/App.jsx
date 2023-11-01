@@ -1,6 +1,7 @@
 import {Outlet} from 'react-router-dom'
 import './App.css'
 import Header from './components/Header'
+import Footer from './components/Footer'
 // import ConctactForm from './pages/ContactForm'
 // import AboutMe from './pages/AboutMe'
 
@@ -16,6 +17,8 @@ function App() {
       <main>
         <Outlet />
           </main>
+          <Footer />
+          
     </>
   )
 }

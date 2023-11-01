@@ -1,4 +1,4 @@
-export default function NavTabs({ links }) {
+export default function NavTabs({links}) {
     return (
       <nav>
         <div>
