@@ -6,7 +6,7 @@ export default function NavTabs({ links, activeLink, onLinkClick }) {
         <ul className="flex flex-row">
           {links.map((link) => (
             <li
-              className= {link.to === activeLink ? "active-background mx-3 px-3 text-lg round-top-corners link text-white " : "lightgrey-background mx-3 px-3 round-top-corners text-lg link text-color "}
+              className= {link.to === activeLink ? "active-background mx-3 px-3 round-top-corners link text-white lg:text-xl " : "lightgrey-background mx-3 px-3 round-top-corners  link text-color lg:text-xl"}
               key={link.key}
             >
               <Link to={link.to} onClick={() => onLinkClick(link.to)}>
