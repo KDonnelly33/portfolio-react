@@ -13,12 +13,13 @@ function App() {
 
   return (
     <>
+    <body className='lightgrey-background flex flex-col min-h-screen'>
       <Header />
-      <main className='lightgrey-background'>
+      <main >
         <Outlet />
           </main>
           <Footer />
-          
+          </body>
     </>
   )
 }

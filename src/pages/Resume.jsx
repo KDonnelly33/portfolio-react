@@ -2,8 +2,8 @@ export default function Resume() {
     return (
 
         <div>
-        <h3 className="text-3xl header-text underline text-center mb-4 ">Resume</h3>
-        <a href="https://docs.google.com/document/d/1GSRD77QBLVxhV0JopDiELKZvfRb03S4qktEF-3JZ6KA/edit" className="darkgrey-background text-white text-3xl px-3  flex justify-center ">To view my resume Click here</a>.
+        <h3 className="text-3xl header-text underline text-center my-4 ">Resume</h3>
+        <a href="https://docs.google.com/document/d/1GSRD77QBLVxhV0JopDiELKZvfRb03S4qktEF-3JZ6KA/edit" className="darkgrey-background text-white text-3xl px-3  flex justify-center underline">To view my resume Click here</a>.
         <h4  className="text-3xl header-text underline text-center mb-4 ">Languages & Skills:</h4>
            <div className="flex flex-row flex-wrap justify-around ">
            <a href="https://babeljs.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg"  alt="babel" width="50" height="50"/> </a> 
