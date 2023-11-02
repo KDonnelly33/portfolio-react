@@ -35,7 +35,7 @@ export default function ContactForm() {
 
   return (
     <section>
-      <h4 className="text-3xl header-text underline text-center my-4">Contact Me</h4>
+      <h2 className="text-3xl header-text text-center my-4">Contact Me</h2>
       <form className="flex flex-col justify-center items-center "onSubmit={handleFormSubmit}>
         <input
         className="w-1/3 px-3 py-2 m-2 rounded-md shadow-lg"
@@ -54,8 +54,8 @@ export default function ContactForm() {
           onChange={handleInputChange}
         />
         
-        <input className="w-11/12 px-3 py-2 m-2 rounded-md shadow-lg" type="text" name="message" placeholder="Message" />
-        <button className="footer-link text-xl m-1 px-2 rounded-lg " type="submit">Submit</button>
+        <textarea className="w-11/12 px-3 py-2 m-2 rounded-md shadow-lg" type="text" name="message" placeholder="Message" />
+        <button className="footer-link text-xl m-1 px-2 rounded-lg shadow-xl  " type="submit">Submit</button>
       </form>
       {errorMessage && (
         <div>
