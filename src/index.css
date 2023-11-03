@@ -3,50 +3,58 @@
 @tailwind utilities;
 
 .darkgrey-background {
-    background-color : #33415C;
+  background-color: #33415c;
 }
+
 .lightgrey-background {
-    background-color : #d6d9e0;
+  background-color: #d6d9e0;
 }
+
 .active-background {
-    background-color : #5C677D;
+  background-color: #5c677d;
 }
+
 .medgrey-background {
-    background-color : #979DAC;
+  background-color: #979dac;
 }
 
 .round-top-corners {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 .link:hover {
-    background-color: #7D8597;
-    color: white;
+  background-color: #7d8597;
+  color: white;
 }
 
 .header-text {
-    color: #33415C;
-    text-shadow: 1px 1px 2px #0466C8 ;
+  color: #33415c;
+  text-shadow: 1px 1px 2px #0466c8;
 }
 
 .text-color {
-    color: #001233;
+  color: #001233;
 }
+
 .footer-link {
-    color: white;
-    background-color: #0353A4;
+  color: white;
+  background-color: #0353a4;
 }
+
 .footer-link:hover {
-    background-color: #023E7D;
+  background-color: #023e7d;
 }
+
 .card {
-    border: 4px solid #33415C;
+  border: 4px solid #33415c;
 }
+
 .smallImg {
-    width: 400px;
-    height: 225px;
+  width: 400px;
+  height: 225px;
 }
+
 .pic-border {
-    border: 4px solid #d6d9e0;
+  border: 4px solid #d6d9e0;
 }

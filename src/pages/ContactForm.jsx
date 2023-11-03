@@ -28,7 +28,6 @@ export default function ContactForm() {
     setName(""); // Clear the name input
     setEmail(""); // Clear the email input
     document.querySelector("input[name='message']").value = ""; // Clear the message input
-    
 
     alert(`Hello ${name}`);
   };
@@ -36,9 +35,12 @@ export default function ContactForm() {
   return (
     <section>
       <h2 className="text-3xl header-text text-center my-4">Contact Me</h2>
-      <form className="flex flex-col justify-center items-center "onSubmit={handleFormSubmit}>
+      <form
+        className="flex flex-col justify-center items-center "
+        onSubmit={handleFormSubmit}
+      >
         <input
-        className="w-1/3 px-3 py-2 m-2 rounded-md shadow-lg"
+          className="w-1/3 px-3 py-2 m-2 rounded-md shadow-lg"
           type="text"
           name="name"
           placeholder="Name"
@@ -46,23 +48,36 @@ export default function ContactForm() {
           onChange={handleInputChange}
         />
         <input
-        className="w-1/3 px-3 py-2 m-2 rounded-md shadow-lg"
+          className="w-1/3 px-3 py-2 m-2 rounded-md shadow-lg"
           type="email"
           name="email"
           placeholder="Email"
           value={email}
           onChange={handleInputChange}
         />
-        
-        <textarea className="w-11/12 px-3 py-2 m-2 rounded-md shadow-lg" type="text" name="message" placeholder="Message" />
-        <button className="footer-link text-xl m-1 px-2 rounded-lg shadow-xl  " type="submit">Submit</button>
+
+        <textarea
+          className="w-11/12 px-3 py-2 m-2 rounded-md shadow-lg"
+          type="text"
+          name="message"
+          placeholder="Message"
+        />
+        <button
+          className="footer-link text-xl m-1 px-2 rounded-lg shadow-xl  "
+          type="submit"
+        >
+          Submit
+        </button>
       </form>
       {errorMessage && (
         <div>
           <p>{errorMessage}</p>
         </div>
       )}
-      <p className="text-center text-xl">This form does not currently function. If you would like to contact me please email me. Have a great day</p>
+      <p className="text-center text-xl">
+        This form does not currently function. If you would like to contact me
+        please email me. Have a great day
+      </p>
     </section>
   );
 }

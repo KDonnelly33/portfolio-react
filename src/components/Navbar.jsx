@@ -17,6 +17,10 @@ export default function Navbar() {
   };
 
   return (
-    <NavTabs links={links} activeLink={activeLink} onLinkClick={handleLinkClick} />
+    <NavTabs
+      links={links}
+      activeLink={activeLink}
+      onLinkClick={handleLinkClick}
+    />
   );
 }

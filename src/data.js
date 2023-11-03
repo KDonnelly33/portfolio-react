@@ -26,7 +26,8 @@ export const PROJECTS = [
 
   {
     title: "Coding Quiz",
-    description: "A timed quiz that tests the users knowledge of coding. This project was built using Html, Javascript and CSS. The main purpose was to learn how to use local storage and dynamically create elements on the page using Javascript.",
+    description:
+      "A timed quiz that tests the users knowledge of coding. This project was built using Html, Javascript and CSS. The main purpose was to learn how to use local storage and dynamically create elements on the page using Javascript.",
     image: codingQuiz,
     link: "https://kdonnelly33.github.io/timedquiz/",
     github: "https://github.com/KDonnelly33/timedquiz",
@@ -34,7 +35,8 @@ export const PROJECTS = [
 
   {
     title: "Note Taker",
-    description: "An app that allows users to create, save, edit and delete notes. This project was built using Html, Javascript, CSS, Node.js, Express.js and Heroku.",
+    description:
+      "An app that allows users to create, save, edit and delete notes. This project was built using Html, Javascript, CSS, Node.js, Express.js and Heroku.",
     image: noteTaker,
     link: "https://quiet-reaches-92554-e8eb33b3297a.herokuapp.com/",
     github: "https://github.com/KDonnelly33/note-taker",
