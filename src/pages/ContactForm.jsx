@@ -79,7 +79,7 @@ if (e.target.value.length < 1){
       </form>
       {errorMessage && (
         <div>
-          <p>{errorMessage}</p>
+          <p className="text-center text-2xl text-red-500 ">{errorMessage}</p>
         </div>
       )}
       <p className="text-center text-xl">
