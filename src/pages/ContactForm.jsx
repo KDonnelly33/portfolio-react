@@ -9,6 +9,10 @@ export default function ContactForm() {
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
+console.log(e.target.value)
+if (e.target.value.length < 1){
+  setErrorMessage('This field is required')
+}
 
     if (name === "email") {
       setEmail(value);
@@ -45,6 +49,7 @@ export default function ContactForm() {
           name="name"
           placeholder="Name"
           value={name}
+          onBlur ={handleInputChange}
           onChange={handleInputChange}
         />
         <input
@@ -53,6 +58,7 @@ export default function ContactForm() {
           name="email"
           placeholder="Email"
           value={email}
+          onBlur ={handleInputChange}
           onChange={handleInputChange}
         />
 
@@ -60,6 +66,8 @@ export default function ContactForm() {
           className="w-11/12 px-3 py-2 m-2 rounded-md shadow-lg"
           type="text"
           name="message"
+          onBlur={handleInputChange}
+          onChange={handleInputChange}
           placeholder="Message"
         />
         <button

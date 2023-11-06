@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="medgrey-background pb-5 pt-1 lg:fixed lg:bottom-0 w-full">
-      <h4 className="text-3xl header-text text-center mb-4">Contact Me</h4>
+      <h3 className="text-3xl header-text text-center mb-4">Contact Me</h3>
       <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-around">
         <a
           className="footer-link text-xl m-1 px-2 rounded-lg underline shadow-xl  "
