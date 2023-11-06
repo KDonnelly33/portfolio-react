@@ -8,8 +8,8 @@ export default function NavTabs({ links, activeLink, onLinkClick }) {
             <li
               className={
                 link.to === activeLink
-                  ? "active-background truncate mx-1 px-3 round-top-corners link text-white lg:text-xl lg:mx-3"
-                  : "lightgrey-background truncate mx-1 px-3 round-top-corners  link text-color lg:text-xl lg:mx-3"
+                  ? "active-background  mx-1 px-3 round-top-corners link text-white lg:text-xl lg:mx-3"
+                  : "lightgrey-background  mx-1 px-3 round-top-corners  link text-color lg:text-xl lg:mx-3"
               }
               key={link.key}
             >
