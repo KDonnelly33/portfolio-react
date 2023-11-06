@@ -19,8 +19,8 @@ export default function AboutMe() {
           and build the digital future together, one line of code at a time.
         </p>
         <img
-          className="h-80 w-50 card rounded-3xl m-auto lg:mr-4 shadow-xl pic-border"
-          src="../../me.jpg"
+          className="h-80 w-50 card rounded-3xl m-auto lg:mr-4 shadow-xl"
+          src="../../assets/me.jpg"
           alt="Kevin Donnelly selfie"
         />
       </div>
