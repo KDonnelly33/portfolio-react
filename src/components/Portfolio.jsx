@@ -1,13 +1,13 @@
 export default function Portfolio({ title, description, image, link, github }) {
   return (
     <li className="flex flex-col justify-center items-center card bg-white p-4 m-4 shadow-lg lg:flex-row ">
-      <h4 className="text-xl header-text text-center pb-4  ">{title}</h4>
+      <h4 className="text-xl header-text text-center pb-4 lg:w-2/12">{title}</h4>
       <img
         className="smallImg lg:mx-5 shadow-xl pic-border rounded-xl mb-4 lg:mb-0"
         src={image}
         alt={title}
       />
-      <div className="flex flex-col item-center justify-center ">
+      <div className="flex flex-col item-center justify-center lg: w-7/12">
         <p className=" text-color">{description}</p>
         <div className="flex justify-around ">
           <a

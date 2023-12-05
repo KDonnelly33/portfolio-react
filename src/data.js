@@ -1,11 +1,20 @@
 import recipeEats from "./assets/images/screenshot-recipeeats.png";
 import fridgeRaider from "./assets/images/screenshot-fridgeraider.png";
 import noteTaker from "./assets/images/screenshot-notetaker.png";
-import codingQuiz from "./assets/images/screenshot-codeingquiz.png";
+import ubetr from "./assets/images/screenshot-ubetr.png";
 import techBlog from "./assets/images/screenshot-techblog.png";
 import textEditor from "./assets/images/screenshot-texteditor.png";
 
 export const PROJECTS = [
+  {
+    title: "U-Betr",
+    description:
+      "This is the third group project I worked on. It is a sports betting app that allows users to bet on real games using fake money. The user can see their betting history and current bets. This site was made with many pacgages including React, Tailwind CSS, DaisyUI, Express, GraphWL, and MongoDB.",
+    image: ubetr,
+    link: "https://rocky-hollows-26852-54ebc26e9935.herokuapp.com/",
+    github: "https://github.com/natejmaster/sports-gambling-odds-comp",
+
+  },
   {
     title: "Recipe Eats",
     description:
@@ -22,15 +31,6 @@ export const PROJECTS = [
     image: fridgeRaider,
     link: "https://natejmaster.github.io/recipe-finder/",
     github: "https://github.com/natejmaster/recipe-finder",
-  },
-
-  {
-    title: "Coding Quiz",
-    description:
-      "A timed quiz that tests the users knowledge of coding. This project was built using Html, Javascript and CSS. The main purpose was to learn how to use local storage and dynamically create elements on the page using Javascript.",
-    image: codingQuiz,
-    link: "https://kdonnelly33.github.io/timedquiz/",
-    github: "https://github.com/KDonnelly33/timedquiz",
   },
 
   {
