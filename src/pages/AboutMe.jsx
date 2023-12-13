@@ -1,3 +1,5 @@
+import Me from "../assets/images/Me.jpg";
+
 export default function AboutMe() {
   return (
     <section>
@@ -20,7 +22,7 @@ export default function AboutMe() {
         </p>
         <img
           className="h-80 w-50 card rounded-3xl m-auto lg:mr-4 shadow-xl"
-          src="../../assets/me.jpg"
+          src={Me}
           alt="Kevin Donnelly selfie"
         />
       </div>
