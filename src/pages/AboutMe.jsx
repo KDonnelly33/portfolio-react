@@ -1,4 +1,4 @@
-import Me from "../assets/images/Me.jpg";
+import Me from "../assets/images/profilepic.jpg";
 
 export default function AboutMe() {
   return (
