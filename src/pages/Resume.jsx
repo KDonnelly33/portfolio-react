@@ -1,14 +1,23 @@
+import Resumepdf from "../assets/KevinDonnellyResume.pdf"
+
 export default function Resume() {
+
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = Resumepdf;
+    link.download = "KevinDonnellyResume.pdf";
+    window.open(Resumepdf, '_blank');
+    link.click();
+    
+  }
   return (
     <div>
+      <div className="flex flex-col items-center">
       <h3 className="text-3xl header-text text-center my-4 ">Resume</h3>
-      <a
-        href="https://docs.google.com/document/d/1GSRD77QBLVxhV0JopDiELKZvfRb03S4qktEF-3JZ6KA/edit"
-        className="darkgrey-background text-white text-3xl px-3  flex justify-center underline"
-      >
-        To view my resume Click here
-      </a>
-      .
+      <button onClick={handleDownload} className="footer-link text-xl m-1 px-2 h-8 my-5 text-center rounded-lg shadow-xl hover:underline">
+        Download Resume
+      </button>
+      </div>
       <h4 className="text-3xl header-text text-center mb-4 ">
         Languages & Skills:
       </h4>
